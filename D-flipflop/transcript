@@ -1,0 +1,77 @@
+# vsim work.d_flipflop_tb 
+# Start time: 10:19:26 on Nov 02,2026
+# Loading work.d_flipflop_tb
+# Loading work.d_flipflop
+add wave -r *
+run -all
+# ================================
+#     D FLIP-FLOP SIMULATION
+# ================================
+# Time    Reset   CLK   D   Q
+# --------------------------------
+#    0     1      0    0   0
+# 5000     1      1    0   0
+# 10000     0      0    1   0
+# 15000     0      1    1   1
+# 20000     0      0    0   1
+# 25000     0      1    0   0
+# 30000     0      0    1   0
+# 35000     0      1    1   1
+# 40000     0      0    1   1
+# 45000     0      1    1   1
+# 50000     0      0    0   1
+# 55000     0      1    0   0
+# 60000     1      0    0   0
+# 65000     1      1    0   0
+# 70000     0      0    0   0
+# 75000     0      1    0   0
+# ================================
+#     SIMULATION COMPLETED
+# ================================
+# ** Note: $finish    : flipflop_tb.v(74)
+#    Time: 80 ns  Iteration: 0  Instance: /d_flipflop_tb
+# 1
+# Break in Module d_flipflop_tb at flipflop_tb.v line 74
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+wave zoom full
+# {0 ps} {84 ns}
+# WARNING: No extended dataflow license exists
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+add wave -position insertpoint  \
+sim:/d_flipflop_tb/D
+# Error opening C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v
+# Path name 'C:/FPGA/ModelSim/Projects/D-flipflop/flipflop_tb.v' doesn't exist.
+# End time: 10:57:58 on Nov 02,2026, Elapsed time: 0:38:32
+# Errors: 0, Warnings: 0

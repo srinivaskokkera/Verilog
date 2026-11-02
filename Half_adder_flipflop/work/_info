@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/ModelSim/Projects/Half_adder_flipflop
+vhalf_adder_dff
+Z1 !s110 1793608029
+!i10b 1
+!s100 4SaUkZk^YRQefL:U]YP:f3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG?7lNQ[B=d966zPSDEWRG3
+R0
+w1793597062
+8half_adder_dff.v
+Fhalf_adder_dff.v
+!i122 1
+L0 3 33
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1793608029.000000
+!s107 half_adder_dff.v|half_adder_dff_tb.v|
+Z6 !s90 half_adder_dff_tb.v|half_adder_dff.v|
+!i113 1
+Z7 tCvgOpt 0
+vhalf_adder_dff_tb
+R1
+!i10b 1
+!s100 En@E>HXBkUBh]:2fdCY_L3
+R2
+I_WKnA4aQD=T[5Ll68=m6c0
+R0
+w1793597238
+8half_adder_dff_tb.v
+Fhalf_adder_dff_tb.v
+!i122 1
+L0 3 81
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 half_adder_dff.v|half_adder_dff_tb.v|
+R6
+!i113 1
+R7
