@@ -1,0 +1,29 @@
+# vsim work.tb_riscv_5stage 
+# Start time: 15:31:24 on Nov 03,2026
+# Loading work.tb_riscv_5stage
+# Loading work.riscv_5stage
+add wave -r *
+run -all
+# 
+# ==========================================
+#        5-STAGE RISC-V PROCESSOR
+# ==========================================
+# Register x1  = 5 (Expected 5)
+# Register x2  = 7 (Expected 7)
+# Register x3  = 12 (Expected 12)
+# Register x4  = 7 (Expected 7)
+# Register x5  = 12 (Expected 12)
+# Register x6  = 0 (Expected 0)
+# Register x7  = 11 (Expected 11)
+# Memory [0]   = 12 (Expected 12)
+# ------------------------------------------
+# 5-STAGE RISC-V TEST PASSED
+# ==========================================
+# ** Note: $finish    : tb_riscv_5stage.v(253)
+#    Time: 306 ns  Iteration: 0  Instance: /tb_riscv_5stage
+# 1
+# Break in Module tb_riscv_5stage at tb_riscv_5stage.v line 253
+wave zoom full
+# {0 ps} {321300 ps}
+# End time: 16:39:50 on Nov 03,2026, Elapsed time: 1:08:26
+# Errors: 0, Warnings: 0
