@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/ModelSim/Projects/D-flipflop
+vd_flipflop
+!s110 1793594936
+!i10b 1
+!s100 FE0j^WSTl;d01F]OWg[5Z2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IU>OCMX_G_OK[<[GnKG21R2
+R0
+w1793594241
+8d_flipflop.v
+Fd_flipflop.v
+!i122 1
+L0 3 18
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1793594936.000000
+!s107 d_flipflop.v|
+!s90 d_flipflop.v|d_flipflop.v|
+!i113 1
+Z4 tCvgOpt 0
+vd_flipflop_tb
+!s110 1793594356
+!i10b 1
+!s100 RQKY@[ib:g^F=4>M1eKC91
+R1
+IYJRUSc?OHDUM1kYm8R9K>0
+R0
+w1793594246
+8flipflop_tb.v
+Fflipflop_tb.v
+!i122 0
+L0 3 76
+R2
+R3
+r1
+!s85 0
+31
+!s108 1793594356.000000
+!s107 flipflop.v|flipflop_tb.v|
+!s90 flipflop_tb.v|flipflop.v|
+!i113 1
+R4

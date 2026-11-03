@@ -1,0 +1,29 @@
+# vsim work.alu4_tb 
+# Start time: 14:05:10 on Oct 31,2026
+# Loading work.alu4_tb
+# Loading work.alu4
+add wave -r*
+# Unrecognized option: "-r*" ignored.
+# Missing signal name or pattern.
+add wave -r *
+run -all
+# ==============================================
+#         4-BIT ALU SIMULATION
+# ==============================================
+# Time   A     B     OP      Result   Carry/Borrow Zero
+# ------------------------------------------------------
+#    0   0101   0011    000      1000          0        0
+# 20000   1111   0001    000      0000          1        1
+# 40000   0101   0011    001      0010          0        0
+# 60000   0011   0101    001      1110          1        0
+# 80000   0101   0011    010      0001          0        0
+# 100000   0101   0011    011      0111          0        0
+# 120000   0101   0011    100      0110          0        0
+# 140000   0101   0101    001      0000          0        1
+# ==============================================
+#         SIMULATION COMPLETED
+# ==============================================
+wave zoom full
+# {0 ps} {168 ns}
+# End time: 15:29:09 on Oct 31,2026, Elapsed time: 1:23:59
+# Errors: 0, Warnings: 0
