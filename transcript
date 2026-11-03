@@ -1,0 +1,30 @@
+# vsim atm_controller_tb 
+# Start time: 10:14:24 on Nov 03,2026
+# Loading work.atm_controller_tb
+# Loading work.atm_controller
+add wave -r *
+run -all
+# ==============================================
+#           ATM CONTROLLER SIMULATION
+# ==============================================
+# Time  Card PIN  Valid Withdraw Balance_enquiry Amount Balance Cash Error Eject
+#    0   0    0    0      0          0         0     01100100    0   00
+# 10000   1    0    0      0          0         0     01100100    0   00
+# 20000   0    1    1      0          0         0     01100100    0   00
+# 30000   0    0    1      0          1         0     01100100    0   00
+# 40000   0    0    1      1          0        30     01100100    0   00
+# 50000   0    0    1      0          0        30     01100100    0   00
+# 80000   0    0    1      1          0       120     01100100    0   00
+# 90000   0    0    1      0          0       120     01100100    0   00
+# 95000   0    0    1      0          0       120     01100100    0   10
+# 105000   0    0    1      0          0       120     01100100    0   01
+# 115000   0    0    1      0          0       120     01100100    0   00
+# ==============================================
+#          SIMULATION COMPLETED
+# ==============================================
+# ** Note: $finish    : atm_controller_tb.v(141)
+#    Time: 160 ns  Iteration: 1  Instance: /atm_controller_tb
+# 1
+# Break in Module atm_controller_tb at atm_controller_tb.v line 141
+wave zoom full
+# {0 ps} {168 ns}
