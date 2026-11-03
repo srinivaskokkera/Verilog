@@ -1,0 +1,22 @@
+# vsim work.washing_machine_tb 
+# Start time: 09:40:31 on Nov 03,2026
+# Loading work.washing_machine_tb
+# Loading work.washing_machine
+add wave -r *
+run -all
+# Time=0 | State=000 | Valve=0 | Wash=0 | Drain=0 | Spin=0 | Done=0
+# Time=25000 | State=001 | Valve=1 | Wash=0 | Drain=0 | Spin=0 | Done=0
+# Time=55000 | State=010 | Valve=0 | Wash=1 | Drain=0 | Spin=0 | Done=0
+# Time=85000 | State=011 | Valve=0 | Wash=0 | Drain=1 | Spin=0 | Done=0
+# Time=115000 | State=100 | Valve=0 | Wash=0 | Drain=0 | Spin=0 | Done=0
+# Time=145000 | State=101 | Valve=0 | Wash=0 | Drain=0 | Spin=1 | Done=0
+# Time=175000 | State=110 | Valve=0 | Wash=0 | Drain=0 | Spin=0 | Done=1
+# TEST PASSED: Washing cycle completed!
+# ** Note: $finish    : washing_machine_tb.v(99)
+#    Time: 200 ns  Iteration: 0  Instance: /washing_machine_tb
+# 1
+# Break in Module washing_machine_tb at washing_machine_tb.v line 99
+wave zoom full
+# {0 ps} {210 ns}
+# End time: 10:12:20 on Nov 03,2026, Elapsed time: 0:31:49
+# Errors: 0, Warnings: 0
